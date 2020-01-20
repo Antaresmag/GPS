@@ -1733,9 +1733,12 @@ section.selection_car {
 	border: none;
 }
 .ui-widget-header {
+    position: relative;
+    height: 100%;
     background: #f7c935;
 }
 .year_select-container .ui-slider .ui-slider-handle {
+	margin-right: -20px;
 	position: relative;
 	display: inline-block;
 	width: 11px;
@@ -1789,9 +1792,7 @@ section.selection_car {
 
 
 
-.ui-widget-header {
-	fill: #f7c935;
-}
+
 
 .year_select-container{
 	margin-bottom: 10px;
