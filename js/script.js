@@ -90,3 +90,9 @@ $('.reviews_slider').slick({
 	  ]
 
 });
+
+$(".main_prices .prices_item").on("click", function(e) {
+	e.preventDefault;
+	$(".main_prices .prices_item").removeClass("active");
+	$(this).toggleClass("active");
+  });
