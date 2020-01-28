@@ -2743,7 +2743,8 @@ section.selection_car {
 
 	.f .form_intro {
 		left: 0;
-    	margin-left: 20px;
+    	margin-right: 20px;
+   		margin-left: 20px;
     	margin-top: 180px;
     	background-size: cover;
     	padding: 20px 20px 20px 0px;
