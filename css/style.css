@@ -1486,7 +1486,19 @@ section.services {
 		text-align: center;
 		text-decoration: none;
 	  }
-
+	  .order-btn .btns {
+		display: block;
+		padding: 0;
+		height: unset;
+		color: #000000;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		text-decoration: none;
+	  }
+	  
   .order-btn:hover{
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
   }
@@ -1756,6 +1768,7 @@ section.selection_car {
 	box-shadow: none;
 	transition: .1s;
 }
+.
 
 
 .year_select-container .ui-slider .ui-slider-handle:hover,
