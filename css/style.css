@@ -339,6 +339,10 @@ body {
 	-webkit-transition: 0.1s linear opacity;
 	transition: 0.1s linear opacity;
   }
+
+  
+  
+
   .lang__text__element:hover {
 	opacity: 0.8;
   }
@@ -2677,7 +2681,7 @@ section.selection_car {
 		padding: 17.5px 15px 13.5px 15px;
 		height: unset;
 	}
-
+	
 	.f .form_title {
 		font-size: 22px;
 	}
@@ -2733,13 +2737,19 @@ section.selection_car {
 		left: calc(50% - 71.5px);
 	}
 
-	.f {
+	/* .f {
 		bottom: -180px;
-	}
+	} */
 
 	.f .form_intro {
-		left:0;
-		background-size:cover;
+		left: 0;
+    	margin-left: 20px;
+    	margin-top: 180px;
+    	background-size: cover;
+    	padding: 20px 20px 20px 0px;
+	}
+	form .btn {
+		margin-left: 10px;
 	}
 
 	div .gm-style .gm-style-iw-c {
@@ -2753,7 +2763,8 @@ section.selection_car {
 	.container-info {
 		right: unset;
 		bottom: -20px;
-		width: unset;
+		width: 100%;
+    	opacity: 1;
 	}
 
 	.container.inf,
