@@ -1762,7 +1762,7 @@ section.selection_car {
 	cursor: pointer;
 	border-radius: 50%;
 	border:3px solid #fff;
-	top: -4px;
+	top: -7px;
 	background: #000;
 	z-index: 2;
 	box-shadow: none;
